@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Okan Zengi - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">OZ</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Okan Zengi</h1>
+            <p>Web Developer & Designer</p>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>I am a passionate web developer with expertise in creating modern and responsive websites. My focus is on delivering exceptional user experiences through clean code and innovative design.</p>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <h2>My Work</h2>
+        <div class="gallery-grid">
+            <div class="gallery-item" data-category="web">
+                <img src="https://images.unsplash.com/photo-1547658719-da2b51169166" alt="Web Development">
+                <div class="overlay">
+                    <i class="fas fa-search-plus"></i>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="design">
+                <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5" alt="UI Design">
+                <div class="overlay">
+                    <i class="fas fa-search-plus"></i>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="mobile">
+                <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3" alt="Mobile Development">
+                <div class="overlay">
+                    <i class="fas fa-search-plus"></i>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="web">
+                <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f" alt="Web Design">
+                <div class="overlay">
+                    <i class="fas fa-search-plus"></i>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="design">
+                <img src="https://images.unsplash.com/photo-1545235617-9465d2a55698" alt="Creative Design">
+                <div class="overlay">
+                    <i class="fas fa-search-plus"></i>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="mobile">
+                <img src="https://images.unsplash.com/photo-1555774698-0b77e0d5fac6" alt="App Development">
+                <div class="overlay">
+                    <i class="fas fa-search-plus"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <div class="contact-info">
+            <p><i class="fas fa-envelope"></i> Okan.Zengi1@my-aolcc.com</p>
+            <p><i class="fas fa-map-marker-alt"></i> Toronto, Canada</p>
+        </div>
+    </section>
+
+    <!-- Lightbox -->
+    <div class="lightbox">
+        <span class="close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+        <div class="lightbox-caption"></div>
+        <a class="prev">&#10094;</a>
+        <a class="next">&#10095;</a>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Okan Zengi. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
